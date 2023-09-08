@@ -1,0 +1,115 @@
+menu{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+body {
+  background-image: url("thulie.jpeg.jpg");
+  background-repeat: no-repeat;
+background-size: 100%;
+box-sizing: border-box;
+background-attachment: scroll;
+font-family: 'sans-serif';
+background-position: center top;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+/* navbar style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+  color: white;
+
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.menu li {
+  padding: 0px 20px;
+}
+
+.menu li a {
+  color:pink;
+  cursor: pointer;
+}
+
+.menu li a:hover {
+  color: #fff;
+}
+
+.search_bar {
+  position: relative;
+  display: flex;
+}
+
+.search_bar input {
+  width: 100%;
+  height: 45px;
+  padding: 0px 35px 0px 15px;
+  border-radius: 10px;
+  background-color: #3D3E42;
+  border: none;
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 20px;
+  color: gray;
+}
+
+.search_icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: gray;
+}
+
+
+.col_hero_info h1 {
+  font-size: 30px;
+  color: pink;
+}
+
+.col_hero_info span {
+  font-size: 70px;
+  color: var(--secondary);
+}
+
+
+
+
+.btn {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: var(--secondary);
+  background-color: var(--primary);
+  border: 3px solid var(--secondary);
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: var(rgba(212, 48, 76, 0.87));
+  transition: 0.5s ease;
+  color: var(--primary);
+}
